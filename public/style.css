@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 50%;
+    height: 300px;
+    margin: 250px 25%;
+    font-size: 2rem;
+    text-align: center;
+    border: 1px solid;
+    box-shadow: 7px 7px;
+    border-radius: 5px;
+}
+body{
+    background-image: url(back.jpg);
+    font-family: "Koulen", Arial, Helvetica, sans-serif;
+}
+input, button{
+    width: 15%;
+    height: 20px;
+}

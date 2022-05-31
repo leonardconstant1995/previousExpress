@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome-express</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Is it a Palindrome?</h1>
+        <form action="/checkWord" method="post">
+            <label for="word"></label>
+            <input type="text" placeholder="Type Me" name="word">
+            <button>PressMe</button>
+        </form>
+    
+        <ul class="messages">
+            <% for(var i=0; i<palindrome.length; i++) {%>
+              <li class="message">
+                <span class="bold"><%= palindrome[i].word %></span>
+                <span><%= palindrome[i].outcome %></span>
+              </li>
+            <% } %>
+            </ul>
+    </main>
+
+    
+      
+    
+    <script src="main.js"></script>
+</body>
+</html>
